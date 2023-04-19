@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>After 2</title>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: #aaa">
+            <h1 class="text-center">DOM-Eventos</h1>
+        </div>
+
+        <div>
+            <div id="misprods" class="row">
+                <!-- aqui los productos -->
+            </div>
+        </div>
+
+        <div>
+            <h4>Tu Carrito</h4>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaBody">
+                    <!-- aqui tabla carrito -->
+                </tbody>
+            </table>
+            <h4 id="total">Total a Pagar $:</h4>
+        </div>
+
+        <button id="finalizar" class="btn btn-success">Finalizar compra</button>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Mis Scripts -->
+    <script src="./productos.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
