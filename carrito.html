@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS local -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo">Component <span>Hardware</span></h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="menu-ul boton-volver" href="index.html">
+                            <i class="fa-solid fa-arrow-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="menu-ul boton-carrito active" href="carrito.html">
+                            <i class="fa-sharp fa-solid fa-cart-shopping"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Lucas Javier</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id='carrito-vacio' class="carrito-vacio">Tu carrito está vacío <i class="fa-regular fa-face-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                    <div class="carrito-producto">
+                        <img class="carrito-img" src="./img/ryzen9-7950x3d.png" alt="">
+                        <div class="carrito-titulo">
+                            <small>Titulo</small>
+                            <h3>IntelAMD</h3>
+                        </div>
+                        <div class="carrito-cantidad">
+                            <small>Cantidad</small>
+                            <p>2</p>
+                        </div>
+                        <div class="carrito-precio">
+                            <small>Precio</small>
+                            <p>1000</p>
+                        </div>
+                        <div class="carrito-subtotal">
+                            <small>Subtotal</small>
+                            <p>200</p>
+                        </div>
+                        <button class="carrito-eliminar"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                    <div class="carrito-producto">
+                        <img class="carrito-img" src="./img/ryzen9-7950x.png" alt="">
+                        <div class="carrito-titulo">
+                            <small>Titulo</small>
+                            <h3>IntelAMD</h3>
+                        </div>
+                        <div class="carrito-cantidad">
+                            <small>Cantidad</small>
+                            <p>2</p>
+                        </div>
+                        <div class="carrito-precio">
+                            <small>Precio</small>
+                            <p>1000</p>
+                        </div>
+                        <div class="carrito-subtotal">
+                            <small>Subtotal</small>
+                            <p>200</p>
+                        </div>
+                        <button class="carrito-eliminar"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="acciones-left">
+                        <button class="carrito-vaciar">Vaciar Carrito</button>
+                    </div>
+                    <div class="acciones-right">
+                        <div class="acciones-total">
+                            <p>Total</p>
+                            <p id="total">3000</p>
+                        </div>
+                        <button class="carrito-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra <i class="fa-regular fa-face-laugh-beam"></i></p>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./productos.js"></script>
+    <script src="./main.js"></script>
+    <script src="./carrito.js"></script>
+</body>
+</html>
