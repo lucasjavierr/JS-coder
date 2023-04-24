@@ -1,18 +1,23 @@
 const contenedorProductos = document.getElementById('contenedor-productos');
-const botonesCategorias = document.querySelectorAll('.categoria');
+const a = document.getElementsByClassName('categoria');
+const botonesCategorias = Array.from(a);
 const tituloPrincipal = document.getElementById('titulo-principal');
-let botonesAgregar = document.getElementsByClassName('producto-agregar');
+let b = document.getElementsByClassName('producto-agregar');
+let botonesAgregar = Array.from(b)
 const numerito = document.getElementById('numerito');
 
-const carrito = [];
+
 
 function cargarProductos(productosElegidos) {
+
     contenedorProductos.innerHTML='';
+
     productosElegidos.forEach(producto => {
+
         const div = document.createElement('div');
         div.classList.add('producto');
-        div.innerHTML+=`
-            <img src="${producto.imagen}" class="producto-img" alt="${producto.titulo}">
+        div.innerHTML = `
+            <img class="producto-img" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">${producto.precio}</p>
@@ -48,12 +53,20 @@ botonesCategorias.forEach(boton => {
 function updateAgregar() {
     botonesAgregar = document.getElementsByClassName('producto-agregar');
     Array.from(botonesAgregar).forEach(boton => {
-        boton.addEventListener('click', (e) => {
-            agregarCarrito(e)
-        });
+        boton.addEventListener('click', agregarCarrito)
     });
-};
+}
 
+let carrito;
+
+let carritoLS = JSON.parse(localStorage.getItem('productos-en-carrito'));
+
+if (carritoLS) {
+    carrito = carritoLS;
+    actualizarNumerito();
+} else {
+    carrito = [];
+}
 
 function agregarCarrito(e) {
     const idBoton = e.currentTarget.id;
@@ -69,10 +82,10 @@ function agregarCarrito(e) {
 
     actualizarNumerito();
 
-    localStorage.setItem('producos-en-carrito', JSON.stringify(carrito));
+    localStorage.setItem('productos-en-carrito', JSON.stringify(carrito));
 }
 
 function actualizarNumerito() {
     let numeritoUpdate = carrito.reduce((ac, producto) => ac + producto.cantidad, 0);
-    numerito.innerText=numeritoUpdate;
+    numerito.innerText = numeritoUpdate;
 }

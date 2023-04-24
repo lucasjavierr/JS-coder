@@ -19,5 +19,35 @@ const productos = [
         },
         precio: 649.99
     },
+    {
+        id: 'rog-rtx4090',
+        titulo: 'Asus ROG RTX 4090',
+        imagen: './img/graficas/4090-asus-rog.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'aorus-rtx4090',
+        titulo: 'Aorus Master RTX 4090',
+        imagen: './img/graficas/4090-aorus.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'intel-arca770',
+        titulo: 'Intel ARC A770',
+        imagen: './img/graficas/a770-intel.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
 ];
 
