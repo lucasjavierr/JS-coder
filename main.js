@@ -58,11 +58,10 @@ function updateAgregar() {
 }
 
 let carrito;
-
-let carritoLS = JSON.parse(localStorage.getItem('productos-en-carrito'));
+let carritoLS = localStorage.getItem('productos-en-carrito');
 
 if (carritoLS) {
-    carrito = carritoLS;
+    carrito = JSON.parse(carritoLS);
     actualizarNumerito();
 } else {
     carrito = [];

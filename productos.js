@@ -206,7 +206,7 @@ const productos = [
     // ---------------- TARJETAS GRAFICAS ----------------
     {
         id: '4090-asus-rog',
-        titulo: 'Geforce RTX 4090 Asus ROG',
+        titulo: 'Asus ROG Strix Geforce RTX 4090',
         imagen: './img/graficas/4090-asus-rog.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
@@ -216,7 +216,7 @@ const productos = [
     },
     {
         id: '7900xtx-asus-tuf',
-        titulo: 'Radeon RX 7900XTX Asus TUF',
+        titulo: 'Asus Radeon RX 7900XTX TUF Gaming',
         imagen: './img/graficas/7900xtx-asus-tuf.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
@@ -226,7 +226,7 @@ const productos = [
     },
     {
         id: '4090-aorus',
-        titulo: 'Geforce RTX 4090 Aorus Master',
+        titulo: 'Gigabyte Geforce RTX 4090 Aorus',
         imagen: './img/graficas/4090-aorus.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
@@ -501,6 +501,130 @@ const productos = [
         categoria: {
             nombre: 'Tarjetas Gráficas',
             id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+
+
+
+    // ---------------- MOTHERBOARDS ----------------
+    {
+        id: 'z790-aorus-elite',
+        titulo: 'Z790 Aorus Elite AX',
+        imagen: './img/motherboards/z790-aorus-elite.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'x670e-rog-che',
+        titulo: 'Asus ROG Crosshire X670E Extreme',
+        imagen: './img/motherboards/x670e-rog-che.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'z690-asrock-taichi',
+        titulo: 'Z690 Asrock Taichi',
+        imagen: './img/motherboards/z690-asrock-taichi.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'x570-aorus-elite',
+        titulo: 'X570 Aorus Elite',
+        imagen: './img/motherboards/x570-aorus-elite.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'b760m-gigabyte-gx',
+        titulo: 'B760M Gigabyte Gaming X',
+        imagen: './img/motherboards/b760m-gigabyte-gx.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'b650mds3h-gigabyte-ud',
+        titulo: 'B650M-DS3H Gigabyte UD',
+        imagen: './img/motherboards/b650mds3h-gigabyte-ud.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'b660m-msi-mag-mortar',
+        titulo: 'B660M MSI MAG Mortar',
+        imagen: './img/motherboards/b660m-msi-mag-mortar.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'b550m-aorus-elite',
+        titulo: 'B550M Aorus Elite',
+        imagen: './img/motherboards/b550m-aorus-elite.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'h610me-d4-asus-prime',
+        titulo: 'H610M-E D4 Asus Prime',
+        imagen: './img/motherboards/h610me-d4-asus-prime.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'a520m-aii-asus-prime',
+        titulo: 'A520M-A II Asus Prime',
+        imagen: './img/motherboards/a520m-aii-asus-prime.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'h510m-s2h-gigabyte',
+        titulo: 'H510M S2H Gigabyte UD',
+        imagen: './img/motherboards/h510m-s2h-gigabyte.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'a320mh-gigabyte',
+        titulo: 'A320M-H Gigabyte UD',
+        imagen: './img/motherboards/a320mh-gigabyte.png',
+        categoria: {
+            nombre: 'Motherboards',
+            id: 'motherboards',
         },
         precio: 2499.99,
     },
