@@ -205,8 +205,8 @@ const productos = [
 
     // ---------------- TARJETAS GRAFICAS ----------------
     {
-        id: 'rog-rtx4090',
-        titulo: 'Asus Geforce RTX 4090 ROG',
+        id: '4090-asus-rog',
+        titulo: 'Geforce RTX 4090 Asus ROG',
         imagen: './img/graficas/4090-asus-rog.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
@@ -215,8 +215,18 @@ const productos = [
         precio: 2499.99,
     },
     {
-        id: 'aorus-rtx4090',
-        titulo: 'Aorus Geforce RTX 4090 Master',
+        id: '7900xtx-asus-tuf',
+        titulo: 'Radeon RX 7900XTX Asus TUF',
+        imagen: './img/graficas/7900xtx-asus-tuf.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '4090-aorus',
+        titulo: 'Geforce RTX 4090 Aorus Master',
         imagen: './img/graficas/4090-aorus.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
@@ -225,9 +235,9 @@ const productos = [
         precio: 2499.99,
     },
     {
-        id: 'msi-gxt-rtx4090',
-        titulo: 'MSI Geforce RTX 4090 Gaming X Trio',
-        imagen: './img/graficas/4090-gamingtrio.png',
+        id: '7900xtx-aorus',
+        titulo: 'Radeon RX 7900XTX Aorus Elite',
+        imagen: './img/graficas/7900xtx-aorus.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
             id: 'graficas',
@@ -235,24 +245,264 @@ const productos = [
         precio: 2499.99,
     },
     {
-        id: '7900xtx-asus-tuf',
-        titulo: 'Asus Radeon RX 7900XTX TUF',
-        imagen: './img/graficas/7900xtx-asus-tuf.png',
+        id: '4090-msi-gxt',
+        titulo: 'Geforce RTX 4090 MSI Gaming X Trio',
+        imagen: './img/graficas/4090-msi-gxt.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
             id: 'graficas',
         },
         precio: 2499.99,
     },
-    /* {
-        id: 'intel-arca770',
-        titulo: 'Intel ARC A770',
+    {
+        id: '7900xtx-asrock-phantom',
+        titulo: 'Radeon RX 7900XTX Asrock Phantom',
+        imagen: './img/graficas/7900xtx-asrock-phantom.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '4080-asus-tuf',
+        titulo: 'Geforce RTX 4080 Asus TUF',
+        imagen: './img/graficas/4080-asus-tuf.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '7900xt-msi-gtc',
+        titulo: 'Radeon RX 7900XT MSI Gaming Trio Classic',
+        imagen: './img/graficas/7900xt-msi-gtc.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '4080-gigabyte',
+        titulo: 'Geforce RTX 4080 Gigabyte',
+        imagen: './img/graficas/4080-gigabyte.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '7900xt-gigabyte',
+        titulo: 'Radeon RX 7900XT Gigabyte',
+        imagen: './img/graficas/7900xt-gigabyte.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3090ti-asus-rog',
+        titulo: 'Geforce RTX 3090 Ti Asus ROG',
+        imagen: './img/graficas/3090ti-asus-rog.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6950xt-msi-gxt',
+        titulo: 'Radeon RX 6950XT MSI Gaming X Trio',
+        imagen: './img/graficas/6950xt-msi-gxt.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3090-msi-ventus3x',
+        titulo: 'Geforce RTX 3090 MSI Ventus 3X',
+        imagen: './img/graficas/3090-msi-ventus3x.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6900xt-powercolor',
+        titulo: 'Radeon RX 6900XT MSI Powercolor Red Devil',
+        imagen: './img/graficas/6900xt-powercolor-reddevil.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3080ti-msi-suprimx',
+        titulo: 'Geforce RTX 3080 Ti MSI Suprim X',
+        imagen: './img/graficas/3080ti-msi-suprimx.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6850xt-asus-tuf',
+        titulo: 'Radeon RX 6850XT Asus TUF',
+        imagen: './img/graficas/6850xt-asus-tuf.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3080-asus-tuf',
+        titulo: 'Geforce RTX 3080 Asus TUF',
+        imagen: './img/graficas/3080-asus-tuf.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6800xt-gigabyte',
+        titulo: 'Radeon RX 6800XT Gigabyte',
+        imagen: './img/graficas/6800xt-gigabyte.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3070ti-gigabyte',
+        titulo: 'Geforce RTX 3070 Ti Gigabyte',
+        imagen: './img/graficas/3070ti-gigabyte.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6750xt-asrock-phantom',
+        titulo: 'Radeon RX 6750XT Asrock Phantom',
+        imagen: './img/graficas/6750xt-asrock-phantom.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3070-msi-gzt',
+        titulo: 'Geforce RTX 3070 MSI Gaming Z Trio',
+        imagen: './img/graficas/3070-msi-gzt.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6700xt-aorus',
+        titulo: 'Radeon RX 6700XT Aorus Elite',
+        imagen: './img/graficas/6700xt-aorus.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3060ti-aorus',
+        titulo: 'Geforce RTX 3060 Ti Aorus Master',
+        imagen: './img/graficas/3060ti-aorus.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6650xt-powercolor-reddevil',
+        titulo: 'Radeon RX 6650XT Powercolor Red Devil',
+        imagen: './img/graficas/6650xt-powercolor-reddevil.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3060-zotac',
+        titulo: 'Geforce RTX 3060 Zotac Gaming',
+        imagen: './img/graficas/3060-zotac.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6600xt-asus-rog',
+        titulo: 'Radeon RX 6600XT Asus ROG',
+        imagen: './img/graficas/6600xt-asus-rog.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '3050-evga',
+        titulo: 'Geforce RTX 3050 EVGA XC',
+        imagen: './img/graficas/3050-evga.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: '6500xt-msi-mech-2x',
+        titulo: 'Radeon RX 6500XT MSi Mech 2X',
+        imagen: './img/graficas/6500xt-msi-mech2x.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
+    {
+        id: 'arc-a770',
+        titulo: 'Intel Arc A770',
         imagen: './img/graficas/a770-intel.png',
         categoria: {
             nombre: 'Tarjetas Gráficas',
             id: 'graficas',
         },
         precio: 2499.99,
-    }, */
+    },
+    {
+        id: 'arc-a750',
+        titulo: 'Intel Arc A750',
+        imagen: './img/graficas/a750-intel.png',
+        categoria: {
+            nombre: 'Tarjetas Gráficas',
+            id: 'graficas',
+        },
+        precio: 2499.99,
+    },
 ];
 
