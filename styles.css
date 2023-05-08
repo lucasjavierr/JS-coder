@@ -177,6 +177,7 @@ main {
 
 .producto-titulo {
     font-size: 1rem;
+    color: var(--color-white);
 }
 
 .producto-agregar {
@@ -192,7 +193,7 @@ main {
 }
 
 .producto-agregar:hover {
-    background-color: var(--color-secundario);
+    background-color: #405808;
     color: var(--color-white);
 }
 

@@ -1,11 +1,17 @@
-const contenedorProductos = document.getElementById('contenedor-productos');
-const a = document.getElementsByClassName('categoria');
-const botonesCategorias = Array.from(a);
-const tituloPrincipal = document.getElementById('titulo-principal');
-let b = document.getElementsByClassName('producto-agregar');
-let botonesAgregar = Array.from(b)
-const numerito = document.getElementById('numerito');
+let productos = [];
+fetch("./productos.json")
+    .then(respuesta => respuesta.json())
+    .then(datos => {
+        productos = datos;
+        cargarProductos(productos);
+    })
 
+
+const contenedorProductos = document.querySelector('#contenedor-productos');
+const botonesCategorias = document.querySelectorAll('.categoria');
+const tituloPrincipal = document.querySelector('#titulo-principal');
+let botonesAgregar = document.querySelectorAll('.producto-agregar');
+const numerito = document.querySelector('#numerito');
 
 
 function cargarProductos(productosElegidos) {
@@ -30,7 +36,6 @@ function cargarProductos(productosElegidos) {
     updateAgregar();
 }
 
-cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener('click', (e) => {
@@ -51,8 +56,8 @@ botonesCategorias.forEach(boton => {
 });
 
 function updateAgregar() {
-    botonesAgregar = document.getElementsByClassName('producto-agregar');
-    Array.from(botonesAgregar).forEach(boton => {
+    botonesAgregar = document.querySelectorAll('.producto-agregar');
+    botonesAgregar.forEach(boton => {
         boton.addEventListener('click', agregarCarrito)
     });
 }
@@ -68,6 +73,25 @@ if (carritoLS) {
 }
 
 function agregarCarrito(e) {
+
+    Toastify({
+        text: "Producto agregado",
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+            background: "linear-gradient(to right, #405808, #91c612)",
+            borderRadius: "2rem"
+        },
+        offset: {
+            x: "1.5rem", // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: "1.5rem" // vertical axis - can be a number or a string indicating unity. eg: '2em'
+        },
+        onClick: function(){} // Callback after click
+    }).showToast();
+    
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
