@@ -203,6 +203,7 @@
 
 
 
+
     {
         "id": "4090-asus-rog",
         "titulo": "Asus ROG Strix Geforce RTX 4090",
@@ -507,6 +508,7 @@
 
 
 
+
     {
         "id": "z790-aorus-elite",
         "titulo": "Z790 Aorus Elite AX",
@@ -624,6 +626,131 @@
         "categoria": {
             "nombre": "Motherboards",
             "id": "motherboards"
+        },
+        "precio": 2499.99
+    },
+
+
+
+
+
+    {
+        "id": "ddr5-2x32-6000mhz-tridentz5",
+        "titulo": "Trident Z5 DDR5 64GB (2x32) 6000MHz",
+        "imagen": "./img/ram/ddr5-2x32-6000mhz-tridentz5.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr5-2x32-5200mhz-corsair-vengeance",
+        "titulo": "Corsair Vengeance DDR5 64GB (2x32) 5200MHz",
+        "imagen": "./img/ram/ddr5-2x32-5200mhz-corsair-vengeance.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr5-2x32-5200mhz-corsair-dominator",
+        "titulo": "Corsair Dominator DDR5 64GB (2x32) 5200MHz",
+        "imagen": "./img/ram/ddr5-2x32-5200mhz-corsair-dominator.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr5-2x16-5600mhz-corsair-dominator",
+        "titulo": "Corsair Dominator DDR5 32GB (2x16) 5600MHz",
+        "imagen": "./img/ram/ddr5-2x16-5600mhz-corsair-dominator.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr5-2x32-5200mhz-aorus",
+        "titulo": "Aorus DDR5 32GB (2x16) 5200MHz",
+        "imagen": "./img/ram/ddr5-2x16-5200mhz-aorus.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr5-2x32-4800mhz-corsair-vengeance",
+        "titulo": "Corsair Vengeance DDR5 32GB (2x16) 4800MHz",
+        "imagen": "./img/ram/ddr5-2x16-4800mhz-corsair-vengeance.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-2x32-4000mhz-tridentz-royal-silver",
+        "titulo": "Trident Z Royal Silver DDR4 64GB (2x32) 4000MHz",
+        "imagen": "./img/ram/ddr4-2x32-4000mhz-tridentz-royal-silver.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-2x32-3600mhz-corsair-vengeance-pro",
+        "titulo": "Corsair Vengeance PRO DDR4 64GB (2x32) 3600MHz",
+        "imagen": "./img/ram/ddr4-2x32-3600mhz-corsair-vengeance-pro.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-2x16-3200mhz-kingston-fury",
+        "titulo": "Kingston Fury DDR4 32GB (2x16) 3200MHz",
+        "imagen": "./img/ram/ddr4-2x16-3200mhz-kingston-fury.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-2x8-4600mhz-hyperx",
+        "titulo": "Hyperx Predator DDR4 16GB (2x8) 4600MHz",
+        "imagen": "./img/ram/ddr4-2x8-4600mhz-hyperx.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-2x4-3200mhz-crucial-ballistix",
+        "titulo": "Crucial Ballistix DDR4 8GB (2x4) 3200MHz",
+        "imagen": "./img/ram/ddr4-2x4-3200mhz-crucial-ballistix.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ddr4-4gb-2400mhz-crucial",
+        "titulo": "Crucial DDR4 4GB (1x1) 2400MHz",
+        "imagen": "./img/ram/ddr4-4gb-2400mhz-crucial.png",
+        "categoria": {
+            "nombre": "Memorias RAM",
+            "id": "memoriasRAM"
         },
         "precio": 2499.99
     }
