@@ -753,6 +753,406 @@
             "id": "memoriasRAM"
         },
         "precio": 2499.99
+    },
+
+
+
+
+
+    {
+        "id": "nvme-2tb-wd-black",
+        "titulo": "SSD NVMe M.2 Western Digital Black 2TB",
+        "imagen": "./img/almacenamiento/nvme-2tb-wd-black.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "nvme-1tb-gigabyte",
+        "titulo": "SSD NVMe M.2 Gigabyte 1TB",
+        "imagen": "./img/almacenamiento/nvme-1tb-gigabyte.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "nvme-512gb-adata",
+        "titulo": "SSD NVMe M.2 Adata Legend 700 512GB",
+        "imagen": "./img/almacenamiento/nvme-512gb-adata.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "nvme-480gb-wd-green",
+        "titulo": "SSD NVMe M.2 Western Digital Green 480GB",
+        "imagen": "./img/almacenamiento/nvme-480gb-wd-green.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "nvme-256gb-kingston",
+        "titulo": "SSD NVMe M.2 Kingston A2000R 256GB",
+        "imagen": "./img/almacenamiento/nvme-256gb-kingston.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "nvme-128gb-adata-xpg",
+        "titulo": "SSD NVMe M.2 XPG SX6000 Lite 128GB",
+        "imagen": "./img/almacenamiento/nvme-128gb-adata-xpg.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-4tb-samsung-qvo870",
+        "titulo": "SSD Samsung QVO870 4TB",
+        "imagen": "./img/almacenamiento/ssd-4tb-samsung-qvo870.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-2tb-wd-blue",
+        "titulo": "SSD Western Digital Blue 2TB",
+        "imagen": "./img/almacenamiento/ssd-2tb-wd-blue.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-1tb-wd-green",
+        "titulo": "SSD Western Digital Green 1TB",
+        "imagen": "./img/almacenamiento/ssd-1tb-wd-green.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-960gb-kingston",
+        "titulo": "SSD Kingston A400 960GB",
+        "imagen": "./img/almacenamiento/ssd-960gb-kingston.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-512gb-kingston",
+        "titulo": "SSD Kingston KC600 512GB",
+        "imagen": "./img/almacenamiento/ssd-512gb-kingston.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-480gb-kingston",
+        "titulo": "SSD Kingston A400 480GB",
+        "imagen": "./img/almacenamiento/ssd-480gb-kingston.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-256gb-adata",
+        "titulo": "SSD Adata SU650 256GB",
+        "imagen": "./img/almacenamiento/ssd-256gb-adata.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-240gb-gigabyte",
+        "titulo": "SSD Gigabyte 240GB",
+        "imagen": "./img/almacenamiento/ssd-240gb-gigabyte.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-128gb-pny",
+        "titulo": "SSD PNY 128GB",
+        "imagen": "./img/almacenamiento/ssd-128gb-pny.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "ssd-120gb-patriot",
+        "titulo": "SSD Patriot Burst Elite 120GB",
+        "imagen": "./img/almacenamiento/ssd-120gb-patriot.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-18tb-wd-red",
+        "titulo": "HDD Western Digital Red PRO 18TB",
+        "imagen": "./img/almacenamiento/hdd-18tb-wd-red.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-16tb-seagate",
+        "titulo": "HDD Seagate SkyHawk AI 16TB",
+        "imagen": "./img/almacenamiento/hdd-16tb-seagate.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-14tb-wd-purple",
+        "titulo": "HDD Western Digital Purple 14TB",
+        "imagen": "./img/almacenamiento/hdd-14tb-wd-purple.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-12tb-wd-gold",
+        "titulo": "HDD Western Digital Gold 12TB",
+        "imagen": "./img/almacenamiento/hdd-12tb-wd-gold.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-10tb-wd-black",
+        "titulo": "HDD Western Digital Black 10TB",
+        "imagen": "./img/almacenamiento/hdd-10tb-wd-black.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-8tb-seagate",
+        "titulo": "HDD Seagate SkyHawk AI 8TB",
+        "imagen": "./img/almacenamiento/hdd-8tb-seagate.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-4tb-wd-blue",
+        "titulo": "HDD Western Digital Blue 4TB",
+        "imagen": "./img/almacenamiento/hdd-4tb-wd-blue.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-2tb-seagate",
+        "titulo": "HDD Seagate Barracuda 2TB",
+        "imagen": "./img/almacenamiento/hdd-2tb-seagate.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-1tb-wd-blue",
+        "titulo": "HDD Western Digital Blue 1TB",
+        "imagen": "./img/almacenamiento/hdd-1tb-wd-blue.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "hdd-500gb-wd-blue",
+        "titulo": "HDD Western Digital Blue 500GB",
+        "imagen": "./img/almacenamiento/hdd-500gb-wd-blue.png",
+        "categoria": {
+            "nombre": "Almacenamiento",
+            "id": "almacenamiento"
+        },
+        "precio": 2499.99
+    },
+
+
+
+
+
+    {
+        "id": "80+titanium-rogthor-1600w",
+        "titulo": "Asus ROG THOR 80+ Titanium 1600W",
+        "imagen": "./img/fuentes/80+titanium-rogthor-1600w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+titanium-seasonic-prime-1200w",
+        "titulo": "Seasonic Prime 80+ Titanium 1200W",
+        "imagen": "./img/fuentes/80+titanium-seasonic-prime-1200w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+titanium-corsair-ax1000",
+        "titulo": "Corsair AX1000 80+ Titanium 1000W",
+        "imagen": "./img/fuentes/80+titanium-corsair-ax1000.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+platinum-aorus-1200w",
+        "titulo": "Aorus 80+ Platinum 1200W",
+        "imagen": "./img/fuentes/80+platinum-aorus-1200w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+platinum-corsair-hx1200",
+        "titulo": "Corsair HX1000 80+ Platinum 1200W",
+        "imagen": "./img/fuentes/80+platinum-corsair-hx1200.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+gold-gigabyte-p750gm",
+        "titulo": "Gigabyte P750GM 80+ Gold 750W",
+        "imagen": "./img/fuentes/80+gold-gigabyte-p750gm.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+gold-msi-a750gf",
+        "titulo": "MSI A750GF 80+ Gold 750W",
+        "imagen": "./img/fuentes/80+gold-msi-a750gf.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+silver-corsair-hx1050",
+        "titulo": "Corsair HX1050 80+ Silver 1050W",
+        "imagen": "./img/fuentes/80+silver-corsair-hx1050.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+silver-corsair-vengeance-750m",
+        "titulo": "Corsair Vengeance 750M 80+ Silver 750W",
+        "imagen": "./img/fuentes/80+silver-corsair-vengeance-750m.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+bronze-thermaltake-smart-bx1-650w",
+        "titulo": "Thermaltake Smart BX1 80+ Bronze 650W",
+        "imagen": "./img/fuentes/80+bronze-thermaltake-smart-bx1-650w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+bronze-gigabyte-p650b",
+        "titulo": "Gigabyte P650B 80+ Bronze 650W",
+        "imagen": "./img/fuentes/80+bronze-gigabyte-p650b.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+white-cooler-master-mwe-550w",
+        "titulo": "Cooler Master 80+ White 550W",
+        "imagen": "./img/fuentes/80+white-cooler-master-mwe-550w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
+    },
+    {
+        "id": "80+white-thermaltake-smart-500w",
+        "titulo": "Thermaltake Smart 80+ White 500W",
+        "imagen": "./img/fuentes/80+white-thermaltake-smart-500w.png",
+        "categoria": {
+            "nombre": "Fuentes de Alimentación",
+            "id": "fuentes"
+        },
+        "precio": 2499.99
     }
 ]
 
